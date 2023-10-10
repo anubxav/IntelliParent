@@ -1,4 +1,4 @@
-import 'package:brain_school/screens/login_screen/login_screen.dart';
+import 'package:IntelliParent/screens/login_screen/login_screen.dart';
 import 'package:flutter/material.dart';
 import 'package:sizer/sizer.dart';
 

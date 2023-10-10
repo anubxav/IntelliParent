@@ -1,6 +1,6 @@
-import 'package:brain_school/components/custom_buttons.dart';
-import 'package:brain_school/constants.dart';
-import 'package:brain_school/screens/home_screen/home_screen.dart';
+import 'package:IntelliParent/components/custom_buttons.dart';
+import 'package:IntelliParent/constants.dart';
+import 'package:IntelliParent/screens/home_screen/home_screen.dart';
 import 'package:flutter/material.dart';
 import 'package:sizer/sizer.dart';
 
@@ -43,7 +43,7 @@ class _LoginScreenState extends State<LoginScreen> {
                     mainAxisAlignment: MainAxisAlignment.end,
                     crossAxisAlignment: CrossAxisAlignment.start,
                     children: [
-                      Text('Hi Student',
+                      Text('Hi Parent',
                           style: Theme.of(context).textTheme.titleMedium),
                       Text('Sign in to continue',
                           style: Theme.of(context).textTheme.titleSmall),
@@ -156,7 +156,7 @@ class _LoginScreenState extends State<LoginScreen> {
           },
           icon: Icon(
             _passwordVisible
-                ? Icons.visibility_off_outlined
+                ? Icons.visibility_outlined
                 : Icons.visibility_off_outlined,
           ),
           iconSize: kDefaultPadding,

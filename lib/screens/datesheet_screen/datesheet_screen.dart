@@ -1,5 +1,5 @@
-import 'package:brain_school/constants.dart';
-import 'package:brain_school/screens/datesheet_screen/data/datesheet_data.dart';
+import 'package:IntelliParent/constants.dart';
+import 'package:IntelliParent/screens/datesheet_screen/data/datesheet_data.dart';
 import 'package:flutter/material.dart';
 import 'package:sizer/sizer.dart';
 
@@ -48,11 +48,13 @@ class DateSheetScreen extends StatelessWidget {
                         children: [
                           Text(
                             dateSheet[index].date.toString(),
-                            style:
-                                Theme.of(context).textTheme.titleSmall!.copyWith(
-                                      color: kTextBlackColor,
-                                      fontWeight: FontWeight.w900,
-                                    ),
+                            style: Theme.of(context)
+                                .textTheme
+                                .titleSmall!
+                                .copyWith(
+                                  color: kTextBlackColor,
+                                  fontWeight: FontWeight.w900,
+                                ),
                           ),
                           Text(dateSheet[index].monthName,
                               style: Theme.of(context).textTheme.bodySmall),
@@ -66,11 +68,13 @@ class DateSheetScreen extends StatelessWidget {
                         children: [
                           Text(
                             dateSheet[index].subjectName,
-                            style:
-                                Theme.of(context).textTheme.titleSmall!.copyWith(
-                                      color: kTextBlackColor,
-                                      fontWeight: FontWeight.w900,
-                                    ),
+                            style: Theme.of(context)
+                                .textTheme
+                                .titleSmall!
+                                .copyWith(
+                                  color: kTextBlackColor,
+                                  fontWeight: FontWeight.w900,
+                                ),
                           ),
                           Text(dateSheet[index].dayName,
                               style: Theme.of(context).textTheme.bodySmall),

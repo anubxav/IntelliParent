@@ -1,4 +1,4 @@
-import 'package:brain_school/constants.dart';
+import 'package:IntelliParent/constants.dart';
 import 'package:flutter/material.dart';
 import 'package:sizer/sizer.dart';
 
@@ -53,10 +53,7 @@ class AssignmentButton extends StatelessWidget {
           borderRadius: BorderRadius.circular(kDefaultPadding),
         ),
         child: Center(
-          child: Text(
-            title,
-            style: Theme.of(context).textTheme.titleSmall
-          ),
+          child: Text(title, style: Theme.of(context).textTheme.titleSmall),
         ),
       ),
     );

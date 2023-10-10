@@ -1,5 +1,5 @@
-import 'package:brain_school/constants.dart';
-import 'package:brain_school/screens/assignment_screen/data/assignment_data.dart';
+import 'package:IntelliParent/constants.dart';
+import 'package:IntelliParent/screens/assignment_screen/data/assignment_data.dart';
 import 'package:flutter/material.dart';
 import 'package:sizer/sizer.dart';
 import 'widgets/assignment_widgets.dart';
@@ -58,17 +58,21 @@ class AssignmentScreen extends StatelessWidget {
                                   child: Center(
                                     child: Text(
                                       assignment[index].subjectName,
-                                      style: Theme.of(context).textTheme.bodySmall,
+                                      style:
+                                          Theme.of(context).textTheme.bodySmall,
                                     ),
                                   ),
                                 ),
                                 kHalfSizedBox,
                                 Text(
                                   assignment[index].topicName,
-                                  style: Theme.of(context).textTheme.titleSmall!.copyWith(
-                                    color: kTextBlackColor,
-                                    fontWeight: FontWeight.w900,
-                                  ),
+                                  style: Theme.of(context)
+                                      .textTheme
+                                      .titleSmall!
+                                      .copyWith(
+                                        color: kTextBlackColor,
+                                        fontWeight: FontWeight.w900,
+                                      ),
                                 ),
                                 kHalfSizedBox,
                                 AssignmentDetailRow(

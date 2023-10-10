@@ -1,4 +1,4 @@
-import 'package:brain_school/constants.dart';
+import 'package:IntelliParent/constants.dart';
 import 'package:flutter/material.dart';
 
 import 'data/fee_data.dart';
