@@ -10,12 +10,12 @@ class AssignmentData {
 }
 
 List<AssignmentData> assignment = [
+  AssignmentData('Operating System', 'Scheduling Algorithms', '10 Oct 2023',
+      '20 Oct 2023', 'Pending'),
+  AssignmentData('Computer Networks', 'OSI model', '11 Oct 2023', '20 Oct 2023',
+      'Submitted'),
   AssignmentData(
-      'Biology', 'Red Blood Cells', '17 Nov 2021', '20 Nov 2021', 'Pending'),
+      'OOPS', 'Inheritence', '12 Oct 2023', '25 Oct 2023', 'Not Submitted'),
   AssignmentData(
-      'Physics', 'bohr theory', '11 Nov 2021', '20 Nov 2021', 'Submitted'),
-  AssignmentData('Chemistry', 'Organic Chemistry', '21 Oct 2021', '27 Oct 2021',
-      'Not Submitted'),
-  AssignmentData(
-      'Mathematics', 'Algebra', '17 Sep 2021', '30 Sep 2021', 'Pending'),
+      'DBMS', 'ACID Properties', '13 Oct 2023', '30 Sep 2023', 'Pending'),
 ];
